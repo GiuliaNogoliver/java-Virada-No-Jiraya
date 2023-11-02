@@ -1,4 +1,4 @@
-package br.com.javanogiraia;
+package request;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 public class StringType {
 	public static void main(String[] args) {
-		
 		System.out.println("Olá pessoa".charAt(2));
 		
 		/*O valor da String uma vez declarado é imutavel

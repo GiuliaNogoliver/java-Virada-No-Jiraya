@@ -17,5 +17,28 @@ public class Inference {
 		
 		var b = "Texto";
 		System.out.println(b);
+
+		var nome = "Giulia";
+		var sobrenome = "Oliveira";
+		var idade = 21;
+		var salario = 45000.500;
+		
+		//usamos \n para pular linha
+		System.out.println("Nome: " + nome + 
+							" \nSobrenome: " + sobrenome + 
+							" \nIdade: " + idade + 
+							" \nSalário: " + salario);
+		
+		/*usamos %s para strings e %d para double
+		*o %.2f é para indicar q é um flutter e quero 2 casas decimais 
+		*note o print F */
+		System.out.printf("A %s %s tem %d anos e recebe um total de R$%.2f", 
+							nome, sobrenome, idade, salario);
+		
+		String frase = String.format("\nA %s %s tem %d anos e recebe um total de R$%.2f", 
+				nome, sobrenome, idade, salario);
+		
+		System.out.println(frase);
+	
 	}
 }

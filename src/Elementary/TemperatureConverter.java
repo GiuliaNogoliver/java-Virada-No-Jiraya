@@ -1,13 +1,13 @@
-package fundamental;
+package Elementary;
 
-public class ConversorTemperatura {
+public class TemperatureConverter {
 	public static void main(String[] args) {
 		// (F - 32)* 5/9 = C
 		int fairenzin = 105;
 		final int X = 32;
 		/*
-		 * Note quando colocado o 9 sem o .0 o java nao entende que 
-		 * é decimal e sempre dá 0 essa divisao
+		 * Note quando colocado o 9 sem o .0 o java nao entende que é decimal e sempre
+		 * dá 0 essa divisao
 		 */
 		final double Y = 5 / 9.0;
 		double celsius = (fairenzin - X) * (Y);

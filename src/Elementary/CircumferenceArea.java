@@ -1,8 +1,8 @@
-package fundamental;
+package Elementary;
 /*@author Giulia
  @since 1.0*/
 
-public class AreaCircunferencia {
+public class CircumferenceArea {
 
 	public static void main(String[] args) {
 

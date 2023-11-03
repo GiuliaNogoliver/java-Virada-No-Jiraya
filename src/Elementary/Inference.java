@@ -1,6 +1,6 @@
-package fundamental;
+package Elementary;
 
-public class Inferencia {
+public class Inference {
 	public static void main(String[] args) {
 		/*o uso do var significa q vc n esta declarando o
 		 * tipo de variavel mas logo qnd vc fala qual dado

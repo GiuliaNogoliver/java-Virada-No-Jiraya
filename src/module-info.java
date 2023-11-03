@@ -4,6 +4,5 @@
 /**
  * 
  */
-module javaViradaNoJiraya {
-	requires java.desktop;
+module javaNoJiraya {
 }

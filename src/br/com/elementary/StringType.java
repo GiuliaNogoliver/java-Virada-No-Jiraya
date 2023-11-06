@@ -1,4 +1,4 @@
-package Elementary;
+package br.com.elementary;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package Elementary;
+package br.com.elementary;
 /*@author Giulia
  @since 1.0*/
 
@@ -10,7 +10,7 @@ public class CircumferenceArea {
 		/*Como o pi nao muda adicionamos o final 
 		*para dizer q é uma constante
 		*outro ponto é q a palavra PI fica maiuscula pois
-		*por convencao a constante é declara assim*/
+		*por convencao a constante é declarada assim*/
 		final double PI = 3.14;
 		double area = raio * raio * PI;
 		

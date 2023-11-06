@@ -1,4 +1,4 @@
-package Elementary;
+package br.com.elementary;
 
 public class Inference {
 	public static void main(String[] args) {

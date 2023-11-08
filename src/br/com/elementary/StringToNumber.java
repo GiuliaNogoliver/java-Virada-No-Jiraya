@@ -19,5 +19,7 @@ public class StringToNumber {
 		System.out.println("A soma é " + soma);
 		double media = soma/2;
 		System.out.println("A media é " + media);
+		
+		//BigDecimal da um resultado preciso das casas decimais
 	}
 }

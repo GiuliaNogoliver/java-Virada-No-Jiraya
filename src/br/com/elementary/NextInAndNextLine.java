@@ -14,6 +14,11 @@ public class NextInAndNextLine {
 		System.out.println("Qual o seu sobrenome?");
 		String sobrenome = entrada.nextLine();
 
+		
+		entrada.next();
+		entrada.nextInt();
+		entrada.nextLine();
+		
 		System.out.printf("A %s %s tem %d anos", nome, sobrenome, idade);
 		entrada.close();
 	}

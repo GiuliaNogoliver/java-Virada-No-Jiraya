@@ -10,8 +10,8 @@ public class NumberToString {
 		//da p converter o tipo primitivo qnd declarado "Integer."
 		System.out.println(Integer.toString(num2).length());
 		
+		System.out.println("AA" + num1);
 		System.out.println("AA" + num2);
 		System.out.println(("AA" + num2).length());
-
 	}
 }

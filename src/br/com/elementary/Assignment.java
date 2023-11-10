@@ -17,7 +17,8 @@ public class Assignment {
 		
 		System.out.println(c + ab);
 		
-		c%= 2; //c = c % 2; 0 ou 1
+		c %= 2; //c = c % 2;
+		
 		System.out.println(c);
 	}
 }

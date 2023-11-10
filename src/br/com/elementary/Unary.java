@@ -7,7 +7,6 @@ public class Unary {
 		
 		a++; //a = a + 1;
 		a--; 
-		
 		++b; // b = b + 1;
 		--b; // b = b - 1;
 		

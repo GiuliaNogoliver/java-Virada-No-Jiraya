@@ -5,6 +5,8 @@ import javax.swing.JOptionPane;
 public class Calculator {
 	public static void main(String[] args) {
 		
+		//using scanner and JPotionPane
+		
 		String entradaJP1 = JOptionPane.showInputDialog("Insira o primeiro numero");
 		double num1 = Double.parseDouble(entradaJP1);
 
@@ -40,8 +42,6 @@ public class Calculator {
 		
 		System.out.printf("%.2f %s %.2f = %.2f", num1, operacao, num2, resultado );
 		entrada.close();*/
-		
-		
 		
 	}
 }

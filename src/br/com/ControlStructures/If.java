@@ -1,4 +1,4 @@
-package br.com.ControlStructures;
+package br.com.controlStructures;
 
 import java.util.Scanner;
 

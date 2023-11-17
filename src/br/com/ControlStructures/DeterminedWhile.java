@@ -7,6 +7,7 @@ public class DeterminedWhile {
 		while(contador < 10) {
 			System.out.println("contador baixo");
 			contador++;
+			//contador += 2; incrementa de 2 em 2
 		}
 	}
 }

@@ -10,7 +10,7 @@ public class Challenge4 {
 		double num = entrada.nextDouble();
 		
 		if(num % 2 != 0 && num / num == 1) {
-			System.out.println("è um número primo");
+			System.out.println("é um número primo");
 		}else {
 			System.out.println("O numero nao é primo");
 		}

@@ -2,7 +2,7 @@ package br.com.controlStructures;
 
 import java.util.Scanner;
 
-public class Switch {
+public class Switch01 {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		

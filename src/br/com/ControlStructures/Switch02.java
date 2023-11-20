@@ -2,7 +2,7 @@ package br.com.controlStructures;
 
 import javax.swing.JOptionPane;
 
-public class Switch2 {
+public class Switch02 {
 	public static void main(String[] args) {
 
 		String faixa = JOptionPane.showInputDialog("Qual sua faixa?");

@@ -10,7 +10,6 @@ public class Challenge07 {
 		 * negativo, encerre o programa. Tente utilizar a estrutura do while.
 		 */
 		Scanner entrada = new Scanner(System.in);
-
 		System.out.println("Digite um número");
 		int a = 0;
 		int b = 0;
@@ -24,7 +23,6 @@ public class Challenge07 {
 			}
 			System.out.println(b);
 		}
-
 		entrada.close();
 	}
 }

@@ -3,7 +3,7 @@ package br.com.challenge;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Challenge6 {
+public class Challenge06 {
 	public static void main(String[] args) {
 		/*
 		 * 6. Jogo da adivinhação: Tentar adivinhar um número entre 0 - 100. Armazene um

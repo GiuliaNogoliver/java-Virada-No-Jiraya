@@ -7,6 +7,9 @@ public class DateTest {
 		now.month = 11;
 		now.year = 2023;
 		
-		System.out.printf("%d/%d/%d",now.day, now.month, now.year);
+		System.out.printf("%d/%d/%d\n",now.day, now.month, now.year);
+		now.printDate();
+		System.out.println(now.formatedBrazilDate());
+		System.out.println(now.formatedChineseDate());
 	}
 }

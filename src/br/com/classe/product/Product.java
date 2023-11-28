@@ -1,4 +1,4 @@
-package br.com.classe;
+package br.com.classe.product;
 
 public class Product {
 	String name;

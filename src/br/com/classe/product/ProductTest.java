@@ -1,4 +1,4 @@
-package br.com.classe;
+package br.com.classe.product;
 
 public class ProductTest {
 	public static void main(String[] args) {

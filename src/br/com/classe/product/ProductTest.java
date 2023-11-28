@@ -12,8 +12,8 @@ public class ProductTest {
 		p2.price = 4200.20;
 		p2.discount = 0.30;
 		
-		double finalPrice1 = p1.price * (1 - p1.discount);
-		double finalPrice2 = p2.price * (1 - p2.discount);
+		double finalPrice1 = p1.priceWithDiscout();
+		double finalPrice2 = p2.priceWithDiscout(0.2);
 		
 		System.out.printf("No seu carrinho vc tem um %s no valor de R$%.2f com desconto aplicado",p1.name, finalPrice1);
 		System.out.printf("\nNo seu carrinho vc tem um %s no valor de R$%.2f com desconto aplicado",p2.name, finalPrice2);

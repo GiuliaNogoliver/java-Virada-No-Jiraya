@@ -5,6 +5,15 @@ public class Date {
 	int month;
 	int year;
 	
+	Date(){
+		day = 01;
+		month = 01;
+		year = 1970;
+	}
+	Date(String a){
+		
+	}
+	
 	String formatedBrazilDate() {
 		String formatedDate = day +"/"+ month +"/"+ year;
 		return formatedDate;

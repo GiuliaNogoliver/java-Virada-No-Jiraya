@@ -3,7 +3,7 @@ package br.com.classe;
 public class Product {
 	String name;
 	double price;
-	double discount;
+	static double discount = 0.25;
 
 	// esse já é default
 	public Product() {

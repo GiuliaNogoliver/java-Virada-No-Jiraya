@@ -19,6 +19,7 @@ public class CircAreaTest {
 		System.out.println(a2.totalArea());
 		System.out.println(a1.totalArea());
 		System.out.println(CircArea.totalArea(3));
+		System.out.println(CircArea.PI);
 		System.out.println(Math.PI);
 	}
 }

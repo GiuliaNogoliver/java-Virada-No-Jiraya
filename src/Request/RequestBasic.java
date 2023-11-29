@@ -5,18 +5,20 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.net.URL;
 
 public class RequestBasic {
 
 	//usando o HttpURLConnection Java SE 8 - biblioteca mais simples do java
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException, URISyntaxException {
 
-		@SuppressWarnings("deprecation")
 		//quando passo URL ele ja considera que é GET pois é padrao da biblioteca
-		URL url = new URL("https://viacep.com.br/ws/03527904/json/");
+		URL url = new URI("https://viacep.com.br/ws/03527904/json/").toURL();
 
+		//Aqui eu chamo a conexao no openConnection
 		HttpURLConnection con = (HttpURLConnection) url.openConnection();
 		InputStream is = con.getInputStream();
 

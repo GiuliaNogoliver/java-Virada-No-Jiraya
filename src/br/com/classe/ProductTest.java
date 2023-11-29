@@ -1,7 +1,8 @@
-package br.com.classe.product;
+package br.com.classe;
 
 public class ProductTest {
 	public static void main(String[] args) {
+		
 		Product p1 = new Product("Notebook", 4360.60);
 		p1.discount = 0.15;
 		

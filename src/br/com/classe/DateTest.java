@@ -1,4 +1,4 @@
-package br.com.classe.date;
+package br.com.classe;
 
 public class DateTest {
 	public static void main(String[] args) {

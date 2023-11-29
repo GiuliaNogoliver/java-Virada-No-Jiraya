@@ -1,4 +1,4 @@
-package br.com.classe.product;
+package br.com.classe;
 
 public class Product {
 	String name;
@@ -6,8 +6,8 @@ public class Product {
 	double discount;
 
 	// esse já é default
-	Product() {
-
+	public Product() {
+		
 	}
 	// quando eu deixo sò esse, o default nao valerá, ou seja quando eu der um new
 	// Product() sem parametro ele nao vai aceitar

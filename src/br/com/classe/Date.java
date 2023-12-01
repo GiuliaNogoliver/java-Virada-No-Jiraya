@@ -11,7 +11,10 @@ public class Date {
 		year = 1970;
 	}
 
-	Date(String a) {
+	Date(int day, int month, int year) {
+		this.day = day;
+		this.month = month;
+		this.year = year;
 	}
 
 	String formatedBrazilDate() {

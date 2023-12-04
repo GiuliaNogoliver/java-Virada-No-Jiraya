@@ -3,8 +3,8 @@ package br.com.classe;
 public class DateTest {
 	public static void main(String[] args) {
 		
-		Date now = new Date("inicial date linux");
-		
+		//Date now = new Date("inicial date linux");
+		Date now = new Date();
 		Date inicial = new Date();
 		inicial.printDate();
 		

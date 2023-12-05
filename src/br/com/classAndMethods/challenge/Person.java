@@ -1,4 +1,4 @@
-package br.com.classAndMethods.challange;
+package br.com.classAndMethods.challenge;
 
 public class Person {
 	String personName;

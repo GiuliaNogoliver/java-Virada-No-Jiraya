@@ -16,6 +16,7 @@ public class Matrices {
 		
 		double[][] notasTurma = new double[qntAlunos][qntNotas];
 		
+		double total = 0;
 		/*
 		 * O laço começa com o primerio for que usa a variavel "i" para acessar as linhas da 
 		 * matriz ou seja, o .lenght refere-se ao número de linhas na matriz bidimensional.
@@ -30,10 +31,18 @@ public class Matrices {
 				System.out.println("Insira a nota " + (j + 1) + " do aluno "
 						+ "" + (1 + i));
 				notasTurma[i][j] += entrada.nextDouble();
+				total += notasTurma[i][j];
 			}
 		}
 		
-		System.out.println(Arrays.toString(notasTurma));
+		System.out.println(total);
+		
+		double media = total / (qntAlunos * qntNotas);
+		System.out.println("A média da turma é de: " + media);
+		
+		for(double[]notasAluno :  notasTurma) {
+			System.out.println(Arrays.toString(notasAluno));
+		}
 		
 		entrada.close();
 	}

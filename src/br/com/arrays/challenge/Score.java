@@ -12,14 +12,13 @@ public class Score {
 	 *
 	 * segundo faça a logica de soma da nota
 	 */
-
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 
 		System.out.println("Informe quantas notas serao");
 		double[] notas = new double[entrada.nextInt()];
 
-		System.out.println(notas.length);
+		// System.out.println(notas.length);
 
 		for (int i = 0; i < notas.length; i++) {
 			System.out.print("Infome a nota " + (i + 1) + ": ");
@@ -33,7 +32,7 @@ public class Score {
 		for (double nota : notas) {
 			total += nota;
 		}
-		System.out.println(total / notas.length);
+		System.out.println("A média é de " + total / notas.length + "!");
 
 		/*
 		 * double totalTest = 0; for(int y = 0; y < notas.length; y++) { totalTest +=

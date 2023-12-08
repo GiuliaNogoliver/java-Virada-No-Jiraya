@@ -2,7 +2,7 @@ package br.com.collections;
 
 import java.util.HashSet;
 
-public class Set {
+public class SetOrganized {
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void main(String[] args) {
 		HashSet firstSet = new HashSet();

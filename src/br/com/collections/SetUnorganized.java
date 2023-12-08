@@ -3,7 +3,7 @@ package br.com.collections;
 import java.util.HashSet;
 import java.util.TreeSet;
 
-public class SortedSet {
+public class SetUnorganized {
 	public static void main(String[] args) {
 		//<> isso é o generics, vc define o tipo de dado q recebera
 		TreeSet<Object> list = new TreeSet<Object>();

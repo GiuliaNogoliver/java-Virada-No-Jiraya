@@ -15,8 +15,9 @@ public class Equals {
 		user01.email = "giuliaoliveira@uorak.com";
 		
 		System.out.println(user01.equals(user02));
-		System.out.println(user01 == user02);
 		System.out.println(user02.equals(user03));
+		
+		System.out.println(user01 == user02);
 		
 	}
 }

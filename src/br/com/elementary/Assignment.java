@@ -15,6 +15,8 @@ public class Assignment {
 		c *= b; //c = c * b;
 		c /= b; //c = c / b:
 		
+		c = b + c; // c+= b;
+		
 		System.out.println(c + ab);
 		
 		c %= 2; //c = c % 2;

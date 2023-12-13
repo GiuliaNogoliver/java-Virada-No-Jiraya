@@ -2,7 +2,7 @@ package br.com.oop.composition;
 
 public class Car {
 
-	Engine engine;
+	final Engine engine;
 	
 	Car(){
 		this.engine = new Engine(this);

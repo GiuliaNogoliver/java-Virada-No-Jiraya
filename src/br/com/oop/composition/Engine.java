@@ -2,12 +2,12 @@ package br.com.oop.composition;
 
 public class Engine {
 
-	Car car;
+	final Car car;
 	boolean on = false;
 	double injectionFactor = 1;
 
 	Engine(Car car){
-		this.car = car; 
+		this.car = car;
 	}
 	int spins() {
 		return (int) Math.round(injectionFactor * 3000);

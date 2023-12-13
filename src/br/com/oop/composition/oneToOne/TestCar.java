@@ -1,4 +1,4 @@
-package br.com.oop.composition;
+package br.com.oop.composition.oneToOne;
 
 public class TestCar {
 	public static void main(String[] args) {

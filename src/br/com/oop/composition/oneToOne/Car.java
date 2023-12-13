@@ -1,4 +1,4 @@
-package br.com.oop.composition;
+package br.com.oop.composition.oneToOne;
 
 public class Car {
 

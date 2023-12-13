@@ -3,17 +3,32 @@ package br.com.oop.composition;
 public class Car {
 
 	Engine engine;
-	// acelera
-	// freia
-	// liga
-	// desliga
-	// o carro possui um motor
-
-	void accelerate() {
-		engine.spins();
+	
+	Car(){
+		this.engine = new Engine(this);
 	}
 
-	void decelerate() {
-		engine.spins();
+	void accelerate() {
+		if (engine.injectionFactor < 2.5) {
+			engine.injectionFactor += 0.4;
+		}
+	}
+
+	void stop() {
+		if (engine.injectionFactor > 0.5) {
+			engine.injectionFactor -= 0.4;
+		}
+	}
+
+	void powerOn() {
+		engine.on = true;
+	}
+
+	void powerOff() {
+		engine.on = false;
+	}
+
+	boolean isOn() {
+		return engine.on;
 	}
 }

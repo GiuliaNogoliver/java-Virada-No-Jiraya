@@ -1,8 +1,8 @@
 package br.com.oop.inheritance.usingEnum;
 
-public class Monstro extends Player {
+public class Monster extends Player {
 
-	Monstro(String name) {
+	Monster(String name) {
 		super(name);
 	}
 

@@ -16,19 +16,20 @@ public class Player {
 		this.currentPosition[1] = this.y;
 	}
 
-	void atacar(Player oponente) {
+	boolean atacar(Player oponente) {
 		int deltaX = Math.abs(x - oponente.x);
 		int deltaY = Math.abs(y - oponente.y);
 
 		if (deltaX == 0 && deltaY == 1) {
 			oponente.life -= 10;
+			return true;
 		} else if (deltaX == 1 && deltaY == 0) {
 			oponente.life -= 10;
+			return true;
 		} else {
 			System.out.println("Impossibilitado de atacar");
+			return false;
 		}
-		currentPosition[0] = x;
-		currentPosition[1] = y;
 	}
 
 	void walkingPositions(Direction direction) {

@@ -2,6 +2,10 @@ package br.com.oop.inheritance.usingEnum;
 
 public class Hero extends Player {
 
+	Hero(int x, int y) {
+		super(x, y);
+	}
+
 	Hero(String name) {
 		super(name);
 	}

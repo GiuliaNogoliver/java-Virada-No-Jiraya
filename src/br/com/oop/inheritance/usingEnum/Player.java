@@ -9,6 +9,15 @@ public class Player {
 	int[] currentPosition;
 	int life = 100;
 
+	Player() {
+
+	}
+
+	Player(int x, int y) {
+		this.x = x;
+		this.y = y;
+	}
+
 	Player(String name) {
 		this.name = name;
 		this.currentPosition = new int[2];

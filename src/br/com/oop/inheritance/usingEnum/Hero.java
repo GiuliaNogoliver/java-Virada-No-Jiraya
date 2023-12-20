@@ -6,12 +6,12 @@ public class Hero extends Player {
 		super(x, y);
 	}
 
-	Hero(String name) {
+	public Hero(String name) {
 		super(name);
 	}
 
 	// Para sobreescrever um metodo vc pode colar ele inteiro aqui ou usar o Super
-	boolean attack(Player oponente) {
+	public boolean attack(Player oponente) {
 		boolean attack1 = super.attack(oponente);
 		boolean attack2 = super.attack(oponente);
 		boolean attack3 = super.attack(oponente);

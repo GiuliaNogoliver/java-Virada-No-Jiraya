@@ -9,7 +9,7 @@ public class Monster extends Player {
 		super(x, y);	//O super chama o construtor da classe Player
 	}
 	
-	Monster(String name) {
+	public Monster(String name) {
 		super(name);
 	}
 	

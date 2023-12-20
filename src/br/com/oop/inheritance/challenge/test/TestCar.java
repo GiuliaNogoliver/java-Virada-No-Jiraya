@@ -1,8 +1,12 @@
-package br.com.oop.inheritance.challenge;
+package br.com.oop.inheritance.challenge.test;
+
+import br.com.oop.inheritance.challenge.Civic;
+import br.com.oop.inheritance.challenge.Ferrari;
+
 
 public class TestCar {
 	public static void main(String[] args) {
-		Car civic = new Civic();
+		Civic civic = new Civic();
 
 		System.out.println(civic);
 		civic.speed();
@@ -12,7 +16,7 @@ public class TestCar {
 		civic.breaker();
 		System.out.println(civic);
 
-		Car ferrari = new Ferrari();
+		Ferrari ferrari = new Ferrari();
 		ferrari.speed();
 		ferrari.speed();
 		System.out.println(ferrari);

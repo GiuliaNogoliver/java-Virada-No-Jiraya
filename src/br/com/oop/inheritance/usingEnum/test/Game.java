@@ -1,12 +1,15 @@
-package br.com.oop.inheritance.usingEnum;
+package br.com.oop.inheritance.usingEnum.test;
+
+import br.com.oop.inheritance.usingEnum.Hero;
+import br.com.oop.inheritance.usingEnum.Monster;
 
 public class Game {
 	public static void main(String[] args) {
-		Player player1 = new Hero("Giulia");
+		Hero player1 = new Hero("Giulia");
 		player1.x = 10;
 		player1.y = 11;
 
-		Player player2 = new Monster("Wellinton");
+		Monster player2 = new Monster("Wellinton");
 		player2.x = 10;
 		player2.y = 12;
 		

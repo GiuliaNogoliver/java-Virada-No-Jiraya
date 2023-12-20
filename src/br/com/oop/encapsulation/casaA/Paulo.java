@@ -10,5 +10,4 @@ public class Paulo extends Ana{
 		System.out.println(formaDeFalar);
 		System.out.println(todosSabem);
 	}
-
 }

@@ -2,15 +2,15 @@ package br.com.oop.inheritance.challenge;
 
 public class Car {
 
-	double velocity = 0;
-	final int MAX_VELOCITY;
-	int delta = 5;
+	protected double velocity = 0;
+	public final int MAX_VELOCITY;
+	protected int delta = 5;
 
 	Car(int MAX_VELOCITY) {
 		this.MAX_VELOCITY = MAX_VELOCITY;
 	}
 
-	void speed() {
+	public void speed() {
 		if (velocity + delta > MAX_VELOCITY) {
 			velocity = MAX_VELOCITY;
 		} else {
@@ -18,7 +18,7 @@ public class Car {
 		}
 	}
 
-	void breaker() {
+	public void breaker() {
 		if (velocity >= delta) {
 			velocity -= delta;
 		} else {

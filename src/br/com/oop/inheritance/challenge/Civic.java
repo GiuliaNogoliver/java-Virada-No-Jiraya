@@ -6,7 +6,7 @@ public class Civic extends Car{
 	
 	Date anoFabricacao;
 	
-	Civic(){
+	public Civic(){
 		this(212);
 	}
 	

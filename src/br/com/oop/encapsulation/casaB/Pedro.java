@@ -16,4 +16,5 @@ public class Pedro extends Ana {
 		System.out.println(formaDeFalar);
 		System.out.println(todosSabem);
 	}
+	// acessar atributo protected por herança nao tem como
 }

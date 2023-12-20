@@ -4,30 +4,34 @@ import java.util.Arrays;
 
 public class Player {
 	String name;
-	int x;
-	int y;
-	int[] currentPosition;
-	int life = 100;
+	public int x;
+	public int y;
+	public int[] currentPosition;
+	public int life = 100;
+	
+	private int deltaX;
+	private int deltaY;
+	
 
-	Player() {
+	protected Player() {
 
 	}
 
-	Player(int x, int y) {
+	protected Player(int x, int y) {
 		this.x = x;
 		this.y = y;
 	}
 
-	Player(String name) {
+	protected Player(String name) {
 		this.name = name;
 		this.currentPosition = new int[2];
 		this.currentPosition[0] = this.x;
 		this.currentPosition[1] = this.y;
 	}
 
-	boolean attack(Player opponent) {
-		int deltaX = Math.abs(x - opponent.x);
-		int deltaY = Math.abs(y - opponent.y);
+	public boolean attack(Player opponent) {
+		deltaX = Math.abs(x - opponent.x);
+		deltaY = Math.abs(y - opponent.y);
 
 		if (deltaX == 0 && deltaY == 1) {
 			opponent.life -= 10;
@@ -41,7 +45,7 @@ public class Player {
 		}
 	}
 
-	void walkingPositions(Direction direction) {
+	public void walkingPositions(Direction direction) {
 		if (direction == Direction.EAST) {
 			x++;
 		} else if (direction == Direction.WEST) {
@@ -57,7 +61,7 @@ public class Player {
 		currentPosition[1] = y;
 	}
 
-	String showMatrices() {
+	public String showMatrices() {
 		return Arrays.toString(currentPosition);
 	}
 }

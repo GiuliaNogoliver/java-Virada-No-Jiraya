@@ -22,21 +22,22 @@ public class TestCar {
 
 		ferrari.breaker();
 		System.out.println(ferrari);
-		
+
 		Ferrari c2 = new Ferrari();
 		c2.ligarTurbo();
 		c2.speed();
 		System.out.println(c2.getVelocity());
-		
+
 		c2.ligarAr();
-		c2.ligarAr(); //teste
-		c2.ligarAr(); //teste
+		c2.ligarAr(); // teste
+		c2.ligarAr(); // teste
 		c2.speed();
 		System.out.println(c2.getVelocity());
 		c2.desligarAr();
-		c2.desligarAr(); //teste
+		c2.desligarAr(); // teste
 		c2.speed();
 		System.out.println(c2.getVelocity());
-		
+
+		System.out.println(c2.airLevel());
 	}
 }

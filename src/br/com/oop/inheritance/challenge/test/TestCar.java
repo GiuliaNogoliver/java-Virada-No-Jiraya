@@ -3,7 +3,6 @@ package br.com.oop.inheritance.challenge.test;
 import br.com.oop.inheritance.challenge.Civic;
 import br.com.oop.inheritance.challenge.Ferrari;
 
-
 public class TestCar {
 	public static void main(String[] args) {
 		Civic civic = new Civic();

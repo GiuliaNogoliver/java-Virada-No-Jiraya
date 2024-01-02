@@ -1,8 +1,10 @@
 package br.com.oop.polymorphism;
 
-public class Comida {
+// A classe abstrata nao pode instanciar objetos
+public abstract class Comida {
 	private double peso;
 	
+	// ou seja esse construtor nao é usado
 	public Comida(double peso) {
 		setPeso(peso);
 	}

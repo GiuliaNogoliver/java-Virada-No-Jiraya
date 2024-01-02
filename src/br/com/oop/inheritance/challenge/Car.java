@@ -4,7 +4,7 @@ public class Car {
 
 	protected double velocity = 0;
 	public final int MAX_VELOCITY;
-	protected int delta = 5;
+	private int delta = 5;
 
 	Car(int MAX_VELOCITY) {
 		this.MAX_VELOCITY = MAX_VELOCITY;

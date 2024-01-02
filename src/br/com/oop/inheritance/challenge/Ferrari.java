@@ -2,7 +2,8 @@ package br.com.oop.inheritance.challenge;
 
 public class Ferrari extends Car implements Sport, Lux {
 
-	public boolean arLigado = false;
+	private boolean arLigado = false;
+	private boolean turboLigado = false;
 
 	public Ferrari() {
 		super(340);
@@ -16,12 +17,15 @@ public class Ferrari extends Car implements Sport, Lux {
 	// Anotacao de q esta sobreescrevendo
 	@Override
 	public void speed() {
-		velocity += delta;
+		velocity += getDelta();
 	}
 
 	@Override
 	public void ligarTurbo() {
-		setDelta(25);
+		turboLigado = true;
+		if (!turboLigado) {
+			setDelta(25);
+		}
 	}
 
 	@Override
@@ -31,15 +35,32 @@ public class Ferrari extends Car implements Sport, Lux {
 
 	@Override
 	public void ligarAr() {
-		arLigado = true;
-		setDelta(delta - 5);
+		setArLigado(true);
+		setDelta(getDelta() - 5);
 	}
 
 	@Override
 	public void desligarAr() {
-		arLigado = false;
-		if (arLigado = false) { //assim eu so aumento e abaixo a velocidade 1x
-			setDelta(delta + 5);
+		setArLigado(false);
+		if (setArLigado(false)) { // assim eu so aumento e abaixo a velocidade 1x
+			setDelta(getDelta() + 5);
 		}
+	}
+
+	public boolean isArLigado() {
+		return arLigado;
+	}
+
+	public boolean setArLigado(boolean arLigado) {
+		this.arLigado = arLigado;
+		return arLigado;
+	}
+
+	public boolean isTurboLigado() {
+		return turboLigado;
+	}
+
+	public void setTurboLigado(boolean turboLigado) {
+		this.turboLigado = turboLigado;
 	}
 }

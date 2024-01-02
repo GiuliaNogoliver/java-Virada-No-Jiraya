@@ -29,4 +29,20 @@ public class Car {
 	public String toString() {
 		return "A velocity do carro está em " + velocity + " Km/h";
 	}
+
+	public double getVelocity() {
+		return velocity;
+	}
+
+	public void setVelocity(double velocity) {
+		this.velocity = velocity;
+	}
+
+	public int getDelta() {
+		return delta;
+	}
+
+	public void setDelta(int delta) {
+		this.delta = delta;
+	}
 }

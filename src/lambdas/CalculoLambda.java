@@ -9,5 +9,10 @@ public class CalculoLambda {
 		
 		Calculo multiplicacao = (x, y) -> {return x * y;};
 		System.out.println(multiplicacao.calcular(2, 3));
+		
+		// Aqui estou chamando os metodos staticos e default
+		System.out.println(Calculo.massa());
+		// Note que ainda podemos suar o metodo default na funcao lambda
+		System.out.println(soma.legal());
 	}
 }

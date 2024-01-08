@@ -25,6 +25,10 @@ public class Produto extends Object {
 		return desconto;
 	}
 	
+	@Override
+	public String toString() {
+		return nome + " no valor de R$" + preco + " com desconto fica R$" + preco *(1 - desconto);
+	}
 	
 
 }

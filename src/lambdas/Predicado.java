@@ -10,6 +10,10 @@ public class Predicado {
 
 		Produto produto01 = new Produto("Notebook", 3800, 0.85);
 		System.out.println(isCaro.test(produto01));
+		
+		Produto produto02 = new Produto("Notebook", 3800, 0.85);
+		System.out.println(isCaro.test(produto02));
+				
 
 	}
 }

@@ -3,7 +3,7 @@ package lambdas;
 import java.util.function.Predicate;
 
 // Predicate #1
-public class Predicado1 {
+public class Predicate1 {
 	public static void main(String[] args) {
 		// essa interface funcional predicate devolve true ou false
 		Predicate<Produto> isCaro = prod -> (prod.getPreco() * 

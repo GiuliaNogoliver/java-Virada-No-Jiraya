@@ -4,7 +4,7 @@ import java.util.function.Predicate;
 
 // composicao de funcoes
 
-public class Predicado2 {
+public class Predicate2 {
 	public static void main(String[] args) {
 		//  ideia aqui é usar operadores logicos para validar
 		Predicate<Integer> isPar = num -> num % 2 == 0;

@@ -23,14 +23,23 @@ public class Challenge {
 		 */
 
 		Function<Produto, Double> totalValor = paramProd -> paramProd.getPreco() - (1 * paramProd.getDesconto());
-		System.out.println(totalValor.apply(p));
+		double v1 = totalValor.apply(p);
+		System.out.println(v1);
 
 		Predicate<Double> hasImposto = valorParam -> valorParam >= 2500;
+		String v3 = hasImposto.test(p.getPreco()) == true ? "o frete é R$100" : "o frete é R$50";
 		System.out.println(hasImposto.test(p.getPreco()));
 
-		Function<Double, Double> valorImposto = precoProd -> precoProd >= 2500 ? (precoProd * 8.5)/100
+		Function<Double, Double> valorImposto = precoProd -> precoProd >= 2500 ? (precoProd * 8.5)/100 + precoProd
 				: precoProd;
-		System.out.println(valorImposto.apply(p.getPreco()));
+		Double v2 = totalValor.andThen(valorImposto).apply(p);
+		System.out.println(totalValor.andThen(valorImposto).apply(p));
 		
+		Function<Double, String> frete = valorTotal -> valorTotal >= 3000 ? "O frete é igual á R$100" : "O frete é igual á R$50";
+		System.out.println(totalValor.andThen(valorImposto).andThen(frete).apply(p));
+		
+		System.out.printf("O valor total do seu produto com desconto é R$%.2f, o imposto ficou em R$%.2f e %s",
+                v1, v2, v3);
+
 	}
 }

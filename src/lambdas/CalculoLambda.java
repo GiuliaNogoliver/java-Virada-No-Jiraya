@@ -12,7 +12,7 @@ public class CalculoLambda {
 		
 		// Aqui estou chamando os metodos staticos e default
 		System.out.println(Calculo.massa());
-		// Note que ainda podemos suar o metodo default na funcao lambda
+		// Note que ainda podemos usar o metodo default na funcao lambda
 		System.out.println(soma.legal());
 	}
 }

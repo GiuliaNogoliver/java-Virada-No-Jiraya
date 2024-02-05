@@ -5,8 +5,8 @@ import java.util.Map.Entry;
 
 public class Map {
 	public static void main(String[] args) {
-		// O map é essa estrutura chave-valor onde podemos ter a melhor manipulacao dos
-		// dados
+		// O map é essa estrutura chave-valor onde podemos ter 
+		// a melhor manipulacao dos dados
 		HashMap<Integer, String> user = new HashMap<>();
 
 		user.put(1, "Giulia");
@@ -32,10 +32,6 @@ public class Map {
 		System.out.println(user.remove(3, "Giulia"));
 
 		// Percorrendo valores separadamente
-		for (String name : user.values()) {
-			System.out.println(name);
-		}
-
 		for (String name : user.values()) {
 			System.out.println(name);
 		}

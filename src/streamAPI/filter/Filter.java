@@ -1,9 +1,11 @@
-package streamAPI;
+package streamAPI.filter;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Function;
 import java.util.function.Predicate;
+
+import streamAPI.Aluno;
 
 public class Filter {
 	public static void main(String[] args) {
@@ -16,7 +18,7 @@ public class Filter {
 		
 		List<Aluno> alunos = Arrays.asList(a1, a2, a3, a4, a5, a6);
 		
-		Predicate<Aluno> aprovado = a -> a.nota >= 7;
+		Predicate<Aluno> aprovado = a -> a.getNota() >= 7;
 		Function<Aluno, String> saudacao = a -> "Parabéns " + a.name + "! Você foi aprovado(a)!";
 		
 		alunos.stream()

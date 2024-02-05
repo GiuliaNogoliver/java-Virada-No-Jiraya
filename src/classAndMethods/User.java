@@ -14,8 +14,8 @@ public class User {
 			return true;
 		}
 		/*
-		 * boolean emailIgual = outro.email.equals(this.email); boolean nomeIgual =
-		 * outro.name.equals(this.name);
+		 * boolean emailIgual = outro.email.equals(this.email); 
+		 * boolean nomeIgual = outro.name.equals(this.name);
 		 * 
 		 * return emailIgual && nomeIgual;
 		 */

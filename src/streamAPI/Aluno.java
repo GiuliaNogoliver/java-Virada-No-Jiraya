@@ -1,11 +1,15 @@
 package streamAPI;
 
 public class Aluno {
-	final String name;
-	final double nota;
+	public final String name;
+	private final double nota;
 	
 	public Aluno(String name, double nota) {
 		this.name = name;
 		this.nota = nota;
+	}
+
+	public double getNota() {
+		return nota;
 	};
 }

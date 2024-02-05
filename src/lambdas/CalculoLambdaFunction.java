@@ -5,7 +5,8 @@ import java.util.function.BinaryOperator;
 public class CalculoLambdaFunction {
 	public static void main(String[] args) {
 
-		// A interface do operador pode ser usada do java.util.function uma interface
+		// A interface do operador pode ser usada
+		// do java.util.function uma interface
 		// funcional ja definida pelo java
 
 		/*

@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class List {
 	public static void main(String[] args) {
 		ArrayList<User> firstList = new ArrayList<>();
+		//ArrayList<User> firstList = new ArrayList<User>();
 
 		User user01 = new User("Giulia");
 		firstList.add(user01);
@@ -22,7 +23,7 @@ public class List {
 		firstList.contains(new User("Carmem"));
 
 		for (User name : firstList) {
-			System.out.println(name);
+			System.out.println(name.name);
 		}
 	}
 }

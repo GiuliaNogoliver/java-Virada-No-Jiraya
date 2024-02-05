@@ -4,7 +4,7 @@ public class CircArea {
 	double radius;
 	static final double PI = 3.1415;
 	//o static faz o atributo virar um atributo de classe
-	//o final vao fazer o valor da variavel virar uma constante
+	//o final faz o valor da variavel virar uma constante
 	
 	//Tem o Math.PI q ja entrega o valor
 	

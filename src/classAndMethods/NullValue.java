@@ -3,7 +3,7 @@ package classAndMethods;
 public class NullValue {
 	public static void main(String[] args) {
 
-		// vazio vc null
+		// vazio vs null
 		String s = "";
 		System.out.println(s.concat("test"));
 
@@ -11,6 +11,7 @@ public class NullValue {
 		// ou ela é primitiva e tem um valor ou aponta para um endereço de memoria onde
 		// esse objeto foi criado
 		//nao é um objeto real um objeto nulo
+		// radom = aleatorio
 		Date d1 = Math.random() > 0.5 ? new Date() : null ;
 		if (d1 != null) {
 			d1.month = 3;

@@ -7,7 +7,7 @@ public class Queue {
 		LinkedList<String> fila = new LinkedList<>();
 		//FIFO - First In First Out
 		
-		//add e offer adicionam elementos na fila
+		// add e offer adicionam elementos na fila
 		// a diferença é quando a fila está cheia
 		
 		fila.add("Giulia"); //lança uma excessão
@@ -16,8 +16,8 @@ public class Queue {
 		fila.offer("Raimundo");
 		System.out.println(fila);
 		
-		//peek e element retona o proximo elemento da fila
-		//a diferença é qnd a fila está vazia
+		// peek e element retona o proximo elemento da fila
+		// a diferença é qnd a fila está vazia
 		
 		System.out.println(fila.peek()); //retorna false
 		System.out.println(fila.element()); //lança uma excessão

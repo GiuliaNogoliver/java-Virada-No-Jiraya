@@ -25,7 +25,7 @@ public class Stack {
 		System.out.println(stack.peek()); // lança excessão
 		System.out.println(stack.element()); // retorna false
 
-		// poll e remove fazem a mesma coisa removem o proximo
+		// pop e poll fazem a mesma coisa removem o proximo
 		// a diferença é qnd estão vazias
 
 		stack.pop(); // lançar excessão

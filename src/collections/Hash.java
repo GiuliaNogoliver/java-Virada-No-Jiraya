@@ -13,9 +13,9 @@ public class Hash {
 		user.add(new User("Giovanna"));
 
 		// quando tiramos o metodo HashCode da classe User e tenta executar o metodo
-		// abaixo ele resolrnará false pois precisa contar os caracteres dos objetos
-		// para ent usar o equals e comparar, ou seja sempre implemengtar o hasCode e o
-		// equals
+		// abaixo ele retornará false pois precisa contar os caracteres dos objetos
+		// para entqao usar o equals e comparar, ou seja sempre implementar o hasCode
+		// e o equals
 		boolean result = user.contains(new User("Giulia"));
 		System.out.println(result);
 	}

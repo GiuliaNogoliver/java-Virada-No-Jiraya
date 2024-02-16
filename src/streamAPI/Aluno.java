@@ -12,4 +12,8 @@ public class Aluno {
 	public double getNota() {
 		return nota;
 	};
+	
+	public String toString() {
+		return name + " tem a nota " + nota;
+	}
 }

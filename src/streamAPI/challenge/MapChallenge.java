@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.function.Function;
 import java.util.function.UnaryOperator;
 
-import lambdas.UnaryOperatorr;
 
 public class MapChallenge {
 	public static void main(String[] args) {

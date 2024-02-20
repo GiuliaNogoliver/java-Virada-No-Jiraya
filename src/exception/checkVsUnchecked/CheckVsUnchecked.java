@@ -1,4 +1,4 @@
-package exception.intro;
+package exception.checkVsUnchecked;
 
 public class CheckVsUnchecked {
 	public static void main(String[] args) {

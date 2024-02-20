@@ -1,4 +1,4 @@
-package exception.intro;
+package exception.basic;
 
 public class Basic {
 	// Erros de execuçao

@@ -1,4 +1,4 @@
-package exception.intro;
+package exception.basic;
 
 import java.util.Objects;
 

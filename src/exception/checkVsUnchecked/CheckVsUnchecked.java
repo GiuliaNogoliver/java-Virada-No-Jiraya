@@ -12,7 +12,7 @@ public class CheckVsUnchecked {
 			getError02();
 		} catch (Throwable e) {
 			System.out.println(e.getMessage());
-			System.out.println(e.getSuppressed());
+			//System.out.println(e.getSuppressed());
 		}
 
 		System.out.println("Fim :)");

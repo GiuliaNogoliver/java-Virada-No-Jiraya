@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Aluno {
 	public final String name;
-	private final double nota;
+	public final double nota;
 	
 	public Aluno(String name, double nota) {
 		this.name = name;

@@ -9,7 +9,7 @@ public class CaixaObjetoTeste {
 		
 		Double coisaA = (Double) caixaA.tirar();
 		// Precisa fazer o casting		
-		System.out.println(caixaA);
+		System.out.println(coisaA);
 		
 		CaixaObjeto caixaB = new CaixaObjeto();
 		caixaB.guardar("Giulia");

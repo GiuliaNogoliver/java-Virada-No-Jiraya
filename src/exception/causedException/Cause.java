@@ -3,7 +3,7 @@ package exception.causedException;
 import exception.basic.Aluno;
 
 public class Cause {
-	// Podem acontecer causar q desencadeiam causar
+	// Podem acontecer exception q causa q desencadeiam outras exception
 	// localizar elas é ideal na investigaçao
 	public static void main(String[] args) {
 			try {
@@ -19,7 +19,7 @@ public class Cause {
 		try {
 			metodoB(aluno);
 		} catch (Exception causa) {
-			// lan]ar o trhow com coused by
+			// lançar o trhow com caused by
 			throw new IllegalArgumentException(causa);
 		}
 	}

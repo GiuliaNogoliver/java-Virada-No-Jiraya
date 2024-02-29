@@ -13,4 +13,6 @@ public class Caixa<BANANA> {
 	public BANANA tirar() {
 		return coisa;
 	}
+	// é um tipo que nao foi expecificado
+	// uma classe de um tipo que nao foi especificado
 }

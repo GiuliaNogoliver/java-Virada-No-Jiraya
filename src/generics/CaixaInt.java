@@ -1,6 +1,6 @@
 package generics;
 
-// public class CaixaInt<X> extends Caixa<X>{
+// public class CaixaInt extends Caixa<String>{
 public class CaixaInt<X> extends Caixa<X>{
 
 }
